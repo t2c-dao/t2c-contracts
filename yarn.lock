@@ -356,6 +356,22 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
+"@hyperlane-xyz/core@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@hyperlane-xyz/core/-/core-1.2.3.tgz#b5dd4408bfc2b98bb006fc5b50402c1fd60eaf88"
+  integrity sha512-GlXzKZizq6Fcw3cgqpSkCdVj2oefKpmthYO0/J2A/8g4DC5Jst8ZrILvJSTqVhmCp+uvQBxSnDL7dlH9rbjUyw==
+  dependencies:
+    "@hyperlane-xyz/utils" "1.2.3"
+    "@openzeppelin/contracts" "^4.8.0"
+    "@openzeppelin/contracts-upgradeable" "^4.8.0"
+
+"@hyperlane-xyz/utils@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@hyperlane-xyz/utils/-/utils-1.2.3.tgz#38671228a6b082338a898cbf1574e0ff5eab1c82"
+  integrity sha512-+h+2ChyLvS0I/D2QZFuXIe+UUb+IbFV5CHCECk0ZWrH/DX56F9IMSOD1wLsCrbq11qoTtncoxrbPVNmGE50RgA==
+  dependencies:
+    ethers "^5.7.2"
+
 "@ipld/dag-cbor@^9.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@ipld/dag-cbor/-/dag-cbor-9.0.0.tgz#51902f7d19ce2203b04e4cfe0514936b82d09d91"
@@ -773,7 +789,12 @@
     table "^6.8.0"
     undici "^5.14.0"
 
-"@openzeppelin/contracts@^4.8.2":
+"@openzeppelin/contracts-upgradeable@^4.8.0":
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.8.2.tgz#edef522bdbc46d478481391553bababdd2199e27"
+  integrity sha512-zIggnBwemUmmt9IS73qxi+tumALxCY4QEs3zLCII78k0Gfse2hAOdAkuAeLUzvWUpneMUfFE5sGHzEUSTvn4Ag==
+
+"@openzeppelin/contracts@^4.8.0", "@openzeppelin/contracts@^4.8.2":
   version "4.8.2"
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.2.tgz#d815ade0027b50beb9bcca67143c6bcc3e3923d6"
   integrity sha512-kEUOgPQszC0fSYWpbh2kT94ltOJwj1qfT2DWo+zVttmGmf97JZ99LspePNaeeaLhCImaHVeBbjaQFZQn7+Zc5g==
@@ -2211,7 +2232,7 @@ ethers@^4.0.40:
     uuid "2.0.1"
     xmlhttprequest "1.8.0"
 
-ethers@^5.4.7:
+ethers@^5.4.7, ethers@^5.7.2:
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-5.7.2.tgz#3a7deeabbb8c030d4126b24f84e525466145872e"
   integrity sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg==

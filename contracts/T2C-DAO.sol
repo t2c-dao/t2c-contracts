@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 // Import the IPFS library
 import "./IPFS.sol";
 
-contract MyDAO {
+contract T2C {
     // Variables
     uint public totalShares;
     uint public totalFunds;
@@ -28,6 +28,12 @@ contract MyDAO {
 
     // IPFS library instance
     IPFS ipfs;
+
+    string gold = "bafkreidsttl5qv22ry7zm3cpu6oe4rulturpndqwwy7yfrn7yc2vaszzrq";
+    string silver =
+        "bafkreibont4z4rfc64ihrnsh3druurgcyh3kawn66rmj3d7llynyzhnbvu";
+    string bronze =
+        "bafkreidmcn6egi2bpkcees4jcun4rd62cy3m735b4qyqmsgupezbcyi4ha";
 
     // Constructor
     constructor(IPFS _ipfs) {

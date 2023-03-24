@@ -15,7 +15,7 @@ contract WCARE is ERC20 {
         admin = msg.sender;
     }
 
-    uint256 public deductionPercentage;
+    uint256 public deductionPercentage = 12;
 
     function wrap(uint256 _amount) external {
         uint256 allowance = token.allowance(msg.sender, address(this));
