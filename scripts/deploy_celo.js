@@ -10,11 +10,11 @@ async function main() {
 
     await t2c.deployed();
 
-    const t2cAddress = t2c.address;  // 0x70931a5d040173195FaEE368F2CF2a2A3921b090
+    const t2cAddress = t2c.address;  // 0x44d46A41e866c6aF99115e4805FfbE5a2b6d2A4b
 
 
     console.log("----------------------------------------------------------------------------------------------------------------------------------------------------")
-    console.log(`Exchange has been deployed to the address : ${t2cAddress}`);  // 0x70931a5d040173195FaEE368F2CF2a2A3921b090
+    console.log(`T2C has been deployed to the address : ${t2cAddress}`);  // 0x44d46A41e866c6aF99115e4805FfbE5a2b6d2A4b
     console.log("----------------------------------------------------------------------------------------------------------------------------------------------------")
 }
 
